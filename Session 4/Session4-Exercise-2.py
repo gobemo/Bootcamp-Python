@@ -1,5 +1,5 @@
 ## This is exercise 1 session 4 of the Python course done at open.bootcamp.com
-## Printing odd numbers
+## Display a list of numbers on the screen, user enters two numbers 
 ## Gonzalo Beltran Morera
 ## gobemo@gmail.com
 

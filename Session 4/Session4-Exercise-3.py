@@ -1,5 +1,5 @@
 ## This is exercise 1 session 4 of the Python course done at open.bootcamp.com
-## Printing odd numbers
+## Printing of reverse numbers
 ## Gonzalo Beltran Morera
 ## gobemo@gmail.com
 
