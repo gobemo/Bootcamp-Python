@@ -1,5 +1,5 @@
 ## This is exercise 1 session 5 of the Python course done at open.bootcamp.com
-## Define class cat
+## Define class car
 ## Gonzalo Beltran Morera
 ## gobemo@gmail.com
 
