@@ -1,0 +1,32 @@
+{% extends "peliculas/base.html" %}
+
+{% block title %}Directores{% endblock %}
+
+
+{% block content %}
+<table class="table">
+    
+    <tr>
+    {% for director in object_list %}
+
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Director</th>
+            <th scope="col">Información Director</th>
+        </tr>
+    </thead>
+        <td>
+            <span class="nombre_director">{{ director }}</span>
+        </td>
+        <td>
+            <blockquote class="blockquote text-left">
+                <a href='/{{director.id}}' target="_parent"><buttontype="button" class="btn btn-info">Ver Director</button></a>
+              </blockquote>
+        </td>
+        {% cycle '' '' '</tr><tr>' %}
+    {% empty %}
+        <td>No hay directores aún</td>
+    {% endfor %}
+    </tr>
+</table>
+{% endblock %}

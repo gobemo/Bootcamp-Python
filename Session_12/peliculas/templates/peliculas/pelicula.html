@@ -1,0 +1,30 @@
+{% extends "peliculas/base.html" %}
+
+{% block title %}Pelicula - {{ pelicula }}{% endblock %}
+
+{% block header-title %}{{ pelicula }}{% endblock %}
+
+{% block content %}
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Año publicacion</th>
+      <th scope="col">Sinopsis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">{{ pelicula.anyo}}</th>
+      <th scope="row">{{ pelicula.sinopsis | linebreaks }}</th>
+      
+    </tr>
+  </tbody>
+</table>  
+
+<blockquote class="blockquote text-center">
+  <a href="http://localhost:8000/" target="_parent"><buttontype="button" class="btn btn-info">Regresar al Inicio</button></a>
+</blockquote>
+
+
+{% endblock %}
